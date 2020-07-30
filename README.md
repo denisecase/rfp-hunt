@@ -16,7 +16,7 @@
 
 ## RFP
 
-- [Request for Proposal]()
+- [Request for Proposal](https://github.com/denisecase/rfp-hunt/blob/master/rfp-hunt.md)
 
 ## Repository Topics
 
