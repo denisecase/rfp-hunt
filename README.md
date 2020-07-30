@@ -1,4 +1,4 @@
-# [RFP Hunt] (https://github.com/denisecase/rfp-hunt)
+# [RFP Hunt](https://github.com/denisecase/rfp-hunt)
 
 > This provides the request for proposal (RFP) for an outside, socially-distant game.
 
