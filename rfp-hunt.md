@@ -5,7 +5,7 @@
 2020 has turned out to be an interesting year. 
 We would like to create an outside, socially-distant game that:
 
-1. Encourages outside exercise.
+1. Encourages outside activity.
 1. Introduces Bearcats to unique and special parts of campus.
 1. Supports teamwork, while allowing players to remain safe.
 1. Could be an engaging icebreaker for various student organizations. 
