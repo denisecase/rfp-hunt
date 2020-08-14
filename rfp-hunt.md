@@ -179,7 +179,8 @@ Teams that bid on the RFP must be able to:
 
 ## Performance Metrics
 
-Performance metrics will be specified in the contract.
+Teams will be judged on their performance to meet the proposed contract deliverables.
+
 
 ## Schedule (Duration in Weeks)
 
