@@ -183,12 +183,10 @@ Performance metrics will be specified in the contract.
 
 ## Schedule (Duration in Weeks)
 
-* Phase 1: Rapid architecture/data/UI design & project charter competition (~2)
-* Phase 2: Synthesis of design (~2)
-* Phase 2: Contract completion & delivery (~1)
-* Phase 2: Contract finalization (~1)
-* Phase 3: Implementation, testing, and review of iterative MVPs (~7-8)
-* Phase 4: Final design and implementation plan for next semester (~2)
+* Module 1: Rapid architecture/data/UI design & project charter competition (~2)
+* Module 2: Synthesis of design and initial planning (~2)
+* Module 3-6: Implementation iterations
+* Module 7: Early release and contract finalization (~1)
 
 ## Project Conception and Initialization
 
