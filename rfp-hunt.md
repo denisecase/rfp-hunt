@@ -218,26 +218,21 @@ Module 1 teams will be assigned at random for this initial design competiion.
 
 These teams will be disbanded at the end of Module 1. 
 
-Module 2 to begin a more detailed design and will involve the 
-creation of new teams that reflect the types of roles each developer would like
-to pursue. 
-
-At the end, we'll have a friendly competition. The teams and client will 
-work together to choose the best parts of each and use this to direct the 
+Module 1 is a friendly competition. The teams and client will 
+work together to choose the best parts of each proposal and use this to direct the 
 remaining effort. 
 
 ## Project Definition and Planning
 
-Based on the information learned from all teams rapid response in Phase 1, 
-we will reorganize and begin a clear, consolidated design vision in Phase 2. 
+Based on the information learned from all teams rapid response in Module 1, 
+we will reorganize and begin a clear, consolidated design vision in Module 2. 
 
-Phase 2 will include a friendly competion 
-between different stacks or approaches, or the group may decide to 
-organize the resources according to different interests. 
+Module 2 will include the development of a detailed contract 
+for this semester's remaining work.  Here is where we decide exactly what 
+products will be created and what platforms or technology stacks will be used 
+for each instance. 
 
-Phase 2 will include the development of a detailed contract 
-for this semester's remaining work.  
-It must be presented in Markdown or HTML 
+Designs and plans will be presented in Markdown or HTML 
 with in-line images and tables (not Word).
 
 We recommend different teams try different data stores, 
