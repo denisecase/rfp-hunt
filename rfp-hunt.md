@@ -167,7 +167,7 @@ CompetionTeam mapping
 
 ## Bidder Qualifications
 
-Bidders must be able to:
+Teams that bid on the RFP must be able to:
 
 1. Specify the project.
 1. Discuss and clarify details with our acting client before beginning.
