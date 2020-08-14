@@ -184,23 +184,23 @@ Teams will be judged on their performance to meet the proposed contract delivera
 
 ## Schedule (Duration in Weeks)
 
-* Module 1: Rapid architecture/data/UI design & project charter competition (~2)
+* Module 1: Rapid architecture/data/UI design & proposal competition (~2)
 * Module 2: Synthesis of design and initial planning (~2)
 * Module 3-6: Implementation iterations
 * Module 7: Early release and contract finalization (~1)
 
 ## Project Conception and Initialization
 
-Phase 1 will include the rapid development of a Project Charter 
+Module 1 will include the rapid development of a proposal 
 to be presented in Markdown or HTML with in-line images and tables (not Word).
 
-This is quick - occuring over less than 2 weeks at the very beginning. 
+This is quick - occuring at the very beginning of the semester.
 
 This forces hard decisions about entities, screens, and functionality. 
 Good effort this this phase will 
 make the rest of the project much more effective. 
 
-Phase 1 should include the following sections.
+The proposal should include the following sections.
 
 * Statement of Purpose
 * Overview
@@ -214,11 +214,11 @@ Phase 1 should include the following sections.
 * Consistent set of sample data in Excel, use one sheet for each entity
 * Risks and assumptions
 
-Phase 1 teams will be assigned at random for this initial design competiion. 
+Module 1 teams will be assigned at random for this initial design competiion. 
 
-These teams will be disbanded at the end of Phase 1. 
+These teams will be disbanded at the end of Module 1. 
 
-Development will begin in Phase 2 and will involve the 
+Module 2 to begin a more detailed design and will involve the 
 creation of new teams that reflect the types of roles each developer would like
 to pursue. 
 
