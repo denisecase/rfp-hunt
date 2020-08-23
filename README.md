@@ -2,14 +2,14 @@
 
 > This provides the request for proposal (RFP) for an outside, socially-distant game.
 
-## Mentor
+## Mentor/Client
 
 - Dr. Denise Case
 - Northwest Missouri State University
 - 44-691 Graduate Directed Project 
 - Fall 2020
 
-## Client
+## Consultant
 
 - Dr. Charles Hoot
 - Northwest Missouri State University
