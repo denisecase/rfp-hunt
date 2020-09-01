@@ -23,9 +23,23 @@
 - Git
 - Markdown
 
-## Rapid MVP Team Links
+## Proposals
 
 1. Northwest Gaming App https://github.com/sumana-reddy/GDP-1-project
 1. The Hunt https://github.com/Dixith1196/THE-HUNT
 3. Lost Treasure https://github.com/Rajeshwari-Rudra/GDP1
 4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game
+
+## Proposals - Issues 
+
+1. Northwest Gaming App https://github.com/sumana-reddy/GDP-1-project/issues
+1. The Hunt https://github.com/Dixith1196/THE-HUNT/issues
+3. Lost Treasure https://github.com/Rajeshwari-Rudra/GDP1/issues
+4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game/issues
+
+## Proposals - Contributors 
+
+1. Northwest Gaming App https://github.com/sumana-reddy/GDP-1-project/graphs/contributors
+1. The Hunt https://github.com/Dixith1196/THE-HUNT/graphs/contributors
+3. Lost Treasure https://github.com/Rajeshwari-Rudra/GDP1/graphs/contributors
+4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game/graphs/contributors
