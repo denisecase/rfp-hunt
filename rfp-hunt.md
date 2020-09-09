@@ -339,7 +339,7 @@ Note: Correct functionality is not a requirement change.
 
 ## Profession-Based
 
-Practice real-world contribution skills – this course is designed to reward the same things life does:
+Practice real-world contribution skills – this is designed to reward the same things life does:
 
 - Successful outcomes created by a group of contributors
 - Valuable contributions by each individual.
