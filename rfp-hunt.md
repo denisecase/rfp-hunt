@@ -364,19 +364,25 @@ Here's an example of the types of tasks that may be needed to achieve a single u
 
 Sprint 1
 
-User Story 5 - Finalize draft UI sketches.
-User Story 5 - Review UI sketches with client
-User Story 5 - Update UI description to reflect comments
-User Story 5 - Get approval for UI sketches before beginning implementation in next sprint
-User Story 5 - Divide and assign work for approved screens
+- User Story 5 - Finalize draft UI sketches.
+- User Story 5 - Review UI sketches with client
+- User Story 5 - Update UI description to reflect comments
+- User Story 5 - Get approval for UI sketches before beginning implementation in next sprint
+- User Story 5 - Divide and assign work for approved screens
 
 Sprint 2
 
-User Story 5 - implement and deploy screen A
-User Story 5 - Implement and deploy screen B
-User Story 5 - Review screens A&B with client, record comments, update tasks
-User Story 5 - Finalize screen A implementation (details in description)
-User Story 5 - Finalize screen B implementation (details in description)
+- User Story 5 - implement and deploy screen A
+- User Story 5 - Implement and deploy screen B
+- User Story 5 - Review screens A&B with client, record comments, update tasks
+- User Story 5 - Finalize screen A implementation (details in description)
+- User Story 5 - Finalize screen B implementation (details in description)
+
+## Theme / Layout / Mobile First
+
+See these screens for the selected theme.
+
+![Example](https://raw.githubusercontent.com/Dixith1196/THE-HUNT/master/Signup.PNG)
 
 ## Source
 
