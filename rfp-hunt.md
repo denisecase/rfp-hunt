@@ -12,35 +12,35 @@ We would like to create an outside, socially-distant game that:
 
 ## Vision
 
-We would like to create a PWA that can be played on any mobile device. 
-The app would encourage players on a team to complete a 'quest' by encountering 
+1. We would like to create a PWA that can be played on any mobile device. 
+1. The app would encourage players on a team to complete a 'quest' by encountering 
 a specific set of locations.
 
-While playing, each player gets one active location from the set of locations in the quest. 
-To score that location, the user must enter the geographic area 
+1. While playing, each player gets one active location from the set of locations in the quest. 
+1. To score that location, the user must enter the geographic area 
 (as determined by their mobile device).
-Each location is specified by a Latitude (e.g., 40.344085), and Longitude (e.g., -94.880743)
+1. Each location is specified by a Latitude (e.g., 40.344085), and Longitude (e.g., -94.880743)
 which defines the center of a circle with a radius of 16 feet. 
-Each location should have an ordered set of three clues. The first is hardest to guess, the 
+1. Each location should have an ordered set of three clues. The first is hardest to guess, the 
 third should make it pretty easy to guess. 
-Currently, each clue is a string, but later, each clude may include a photo. 
+1. Currently, each clue is a string, but later, each clude may include a photo. 
 
-We will start with a competition that has two teams. 
-Each team has four players. 
-Each quest has four locations. 
-When the competition starts, each player on a team is randomly assigned one of the locations. 
-The player the first clue for that lcoation is displayed on the screen. 
-The player begins moving.  
-As they get within ___ feet of the location, the background goes (warm color). 
-As they get within __ feet of the location, the background goes (hot color). 
-Once within the location, the app celebrates with display and sound & the player earns the location. 
-If the first clue is not enough, the player can request another clue. 
+1. We will start with a competition that has two teams. 
+1. Each team has four players. 
+1. Each quest has four locations. 
+1. When the competition starts, each player on a team is randomly assigned one of the locations. 
+1. The player the first clue for that lcoation is displayed on the screen. 
+1. The player begins moving.  
+1. As they get within ___ feet of the location, the background goes (warm color). 
+1. As they get within __ feet of the location, the background goes (hot color). 
+1. Once within the location, the app celebrates with display and sound & the player earns the location. 
+1. If the first clue is not enough, the player can request another clue. 
 
-After scoring their location, the player should be invited to return to the starting location (show on a map?)
-The player should return to the start and wait for others to arrive. 
-All teams scoring all locations earn 100% for the competition (e.g. let each score be worth 25 points for a 100-point competition).
+1. After scoring their location, the player should be invited to return to the starting location (show on a map?)
+1. The player should return to the start and wait for others to arrive. 
+1. All teams scoring all locations earn 100% for the competition (e.g. let each score be worth 25 points for a 100-point competition).
 
-The game is coooperative, not competive and a race to find the location and a race to return "home" provide the competitive aspects. 
+1. The game is coooperative, not competive and a race to find the location and a race to return "home" provide the competitive aspects. 
 
 ## Functional Requirements
 
