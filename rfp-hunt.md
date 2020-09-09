@@ -12,33 +12,35 @@ We would like to create an outside, socially-distant game that:
 
 ## Vision
 
-We would like to create an app that can be played on a mobile device. 
-The app would encourage players to complete a 'quest' by encountering 
-a specific list of locations.
-A player would activate one of the locations in the quest. 
+We would like to create a PWA that can be played on any mobile device. 
+The app would encourage players on a team to complete a 'quest' by encountering 
+a specific set of locations.
+
+While playing, each player gets one active location from the set of locations in the quest. 
 To score that location, the user must enter the geographic area 
-(as determined by their mobile device). 
-Locations may be explicitly identified (easier) - or described 
-using clues (harder).
-The quest may require locations to be accessed in a specific order - or 
-in any order as specified by the quest creator. 
+(as determined by their mobile device).
+Each location is specified by a Latitude (e.g., 40.344085), and Longitude (e.g., -94.880743)
+which defines the center of a circle with a radius of 16 feet. 
+Each location should have an ordered set of three clues. The first is hardest to guess, the 
+third should make it pretty easy to guess. 
+Currently, each clue is a string, but later, each clude may include a photo. 
 
-Points may be earned for:
-- a player reaching a location
-- a player completing a quest
+We will start with a competition that has two teams. 
+Each team has four players. 
+Each quest has four locations. 
+When the competition starts, each player on a team is randomly assigned one of the locations. 
+The player the first clue for that lcoation is displayed on the screen. 
+The player begins moving.  
+As they get within ___ feet of the location, the background goes (warm color). 
+As they get within __ feet of the location, the background goes (hot color). 
+Once within the location, the app celebrates with display and sound & the player earns the location. 
+If the first clue is not enough, the player can request another clue. 
 
-Points for each location may be assigned based on the estimated difficulty.
+After scoring their location, the player should be invited to return to the starting location (show on a map?)
+The player should return to the start and wait for others to arrive. 
+All teams scoring all locations earn 100% for the competition (e.g. let each score be worth 25 points for a 100-point competition).
 
-Points for a completed quest may be based on the sum of the location points
-earned along with a possible bonus based on locating all points
-(a completion bonus) - and/or based on the time to complete the quest as
-specified by the quest creator. 
-
-Once created, a quest can be opened up again for different teams or people.
-Each instance of a quest should be associated with:
-
-- A start and end datetime.
-- A set of participating teams.
+The game is coooperative, not competive and a race to find the location and a race to return "home" provide the competitive aspects. 
 
 ## Functional Requirements
 
@@ -48,14 +50,7 @@ authorization. The following roles are suggested:
 1. Administrator (access to all information including app settings)
 1. User (access to their content)
 
-Any user may choose to:
-
-1. Create and manage a team (serve as captain)
-1. Create and manage a quest (serve as quest creator)
-1. Launch a competition (serve as hunt master)
-1. Join a team and participate in a quest (serve as a player)
-
-Any user can choose to create a team. 
+As a user, I want to create a team (serve as captain)
 
 1. The user serves as captain of any team they create. 
 1. The captain provides a team name.
@@ -63,17 +58,22 @@ Any user can choose to create a team.
 1. A user can accept the team invite and become a team player or reject it. 
 1. After three days, if not accepted, assume rejection.
 
-Any user can choose to design a quest. 
+As a user, I want to manage my invites.
+
+1. When I get an invite, I can explicitly decline. 
+1. After three days, the invite disappears and my invite declined.
+1. When I get an invite, I can accept the invite to join the team.
+
+As a user, I want to design a quest (serve as quest creator)
 
 1. The user serves as designer of any quest they create. 
-1. The designer provides a quest name.
-1. The designer provides a list of locations for the quest.  
-1. For each location, the designer provides a location number. 
-1. For each location, the designer provides location coordinates (either by 
-   entering numbers OR based on a 10' x 10' square 
-  around their current location)
+1. The designer provides a unique quest name among all quests (not just mine).
+1. The designer provides a starting location for the quest (Lat, Long, will use default radius)
+1. The designer provides a set of four unordered locations for the quest.  
+1. For each location, the designer provides location coordinates (Lat, Long, default radius)
+1. For each location, the designer provides 3 ordered string clues. (Later a clue may include a photo).
 
-Any user can choose to launch a competion.
+As a user, I want to create a competion (serve as hunt master)
 
 1. The user serves as the hunt master of the competion.
 1. The hunt master specifies the start date and time for the competion. 
@@ -81,24 +81,28 @@ Any user can choose to launch a competion.
 1. The hunt master chooses an existing quest for the competion. 
 1. The hunt master invites a list of teams to compete about a week before. 
 1. Each team captain can accept or reject the invitation. 
-1. By 24 hours before the competition, if not accepted, assume rejection. 
+
+As a team captain, I want to manage my competition invites.
+
+1. When I get an invite, I can explicitly decline. 
+1. After three days, the invite disappears and my invite declined.
+1. When I get an invite, I can accept the invite to join the compeition.
+
+As a player, I want to participate in a competition. 
+
+1. The app will remind me a day before. 
+1. On the day of the competition, the app will show the start datetime and the starting location.
+1. When the competion starts, I will see the first clue for my randomly-assigned location. 
+1. I start moving to the clue.  If unsuccessful, I can request a second clue. 
+1. If still unsuccessful, I can request a third and final clue (which should make it pretty easy to be successful). 
+1. When I get within __ feet of my location, my display shows (warm color) maybe yellow? 
+1. When I get within __ feet of my location, my display shows (hot color) maybe red?
+1. When I get within my location circle, my display celebrates and says "Congratulations, you scored!"
+1. After celebrating, I am asked to return to the starting location (shown) to wait for the other players to return. 
 
 Security must be addressed throughout the app. 
-
-The app must be able to access geospatial information from the device, 
-using either native senors or browser information. 
-
-The app should provide visible and audible feedback for the player 
-when the active location is encountered. 
-
-The app should provide visible and audible feedback for the player 
-when the active quest is completed. 
-
-The app should be responsive, able to work well on various mobile devices 
-from phones to laptops and tablets in various orientations. 
-
 The app should provide a customizable theme using NW Bearcat colors. 
-This them should be able to be swapped if the app is used at other schools. 
+This theme should be swappable if the app is used at other schools. 
 
 The app must work on:
 
@@ -117,53 +121,74 @@ User
   - date created
   - date last accessed
 
-Team (a team has 0 or more players)
+Team 
 
-  - Team Name
-  - creator (user serving as team captain)
-  - date created
-  - date last edited
+  - Team ID
+  - Team Name (unique, 3-25 char)
+  - CreatorUserID 
+  - datetime created
+  - datetime last edited
 
 Player (a player belongs to 0 or more teams)
 
-  - Player nickname
-  - Points to a user (a user may play under different nicknames)
+  - Player ID
+  - Team ID
+  - User ID
+  - Player name (unique, 3-25 char)
+  - DateTimeInvited
+  - DateTimeAccepted
+  - DateTimeRejected
+  - DateTimeDeleted?
 
-TeamPlayer mapping
+Quest 
 
-  - DateInvited
-  - DateAcceptedInvite
-  - DateRejectedInvite
-  - DateLeftTeam
-
-Quest (a quest has 0 or more locations)
-
-   - Quest name
-   - designer (user serving as quest designer)
+   - Quest ID
+   - Quest name CreatorUserID 
+   - CreatorUserID 
+   - Quest starting location Latitude
+   - Quest starting location Longitude
    - date created
    - date last accessed
 
-Location (a location belongs to 0 or more quests)
+Location (4 per quest)
 
-   - Location number
-   - Location clue
-   - Location coordinates (~10'x10')
+   - Location ID
+   - Quest ID
+   - Location latitude
+   - Location longitude
+   - Location Value (e.g. 25 points)
+ 
+Clue (3 per location)
+ 
+ - Clue ID
+ - Location ID
+ - Clue Sort Order
+ - Clue string
 
-QuestLocation mapping
 
 Competition (many teams completing a quest at given time)
 
   - Competion name
-  - creator (user serving as hunt master)
+  - CreatorUserID
   - date created
-  - start
-  - end
+  - StartDateTime
+  - EndDateTime
 
 CompetionTeam mapping
 
   - CompetionID
   - TeamID
-  - Team score (calculated from player scores)
+  - DateTimeInvited
+  - DateTimeAccepted
+  - DateTimeRejected
+  - DateTimeDeleted?
+  
+PlayerScore
+
+- PlayerScoreID
+- PlayerID
+- LocationID
+- DateTimeLocationScored
 
 ## Bidder Qualifications
 
@@ -180,7 +205,6 @@ Teams that bid on the RFP must be able to:
 ## Performance Metrics
 
 Teams will be judged on their performance to meet the proposed contract deliverables.
-
 
 ## Schedule (Duration in Weeks)
 
@@ -232,16 +256,16 @@ for this semester's remaining work.  Here is where we decide exactly what
 products will be created and what platforms or technology stacks will be used 
 for each instance. 
 
-Designs and plans will be presented in Markdown or HTML 
+Designs and plans will be presented in the NW Jira, Markdown or HTML 
 with in-line images and tables (not Word).
 
 We recommend different teams try different data stores, 
 architecture approaches (e.g.microservices), and frameworks (e.g. Vue or 
 Vanilla JavaScript custom components).
 
-Getting data and user interface correct FIRST are critical. 
+Getting data correct first is critical. 
 
-NO WORK MAY begin on any UI until the client and mentor have signed a sketch. 
+Tasks should include getting client signoff on each UI screen before implementation.  
 
 The contract will specify:
 
