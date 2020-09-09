@@ -384,6 +384,12 @@ See these screens for the selected theme.
 
 ![Example](https://raw.githubusercontent.com/Dixith1196/THE-HUNT/master/Signup.PNG)
 
+## NW Jira
+
+Use NW Jira to plan your work - note the clear scheduled sprints used by this team.
+
+![Example](https://github.com/Rajeshwari-Rudra/GDP1/blob/master/Images/sprint1.PNG)
+
 ## Source
 
 <https://github.com/denisecase/rfp-hunt/blob/master/rfp-hunt.md>
