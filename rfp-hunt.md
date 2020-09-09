@@ -344,6 +344,14 @@ Practice real-world contribution skills – this course is designed to reward th
 - Successful outcomes created by a group of contributors
 - Valuable contributions by each individual.
 
+## Work Planning
+
+Work during the week. 
+
+1. Class is required on Monday.  This day is critical - do your half day of work outside class on Monday - the team needs to "divide & conquer" and figure out who will do what. Get organized; get started. You'll need 9-12 hours of planned tasks (about 3-12 items on the board) each week. 
+1. Class is required on Wednesday – this is another great day to complete another half day of work. As you work, close your Jira tasks.
+1. Class is required on Friday – this is another great day to complete another half day of work. Finish up, document, submit, and be proud of your accomplishments. 
+
 ## Source
 
 <https://github.com/denisecase/rfp-hunt/blob/master/rfp-hunt.md>
