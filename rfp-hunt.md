@@ -337,6 +337,13 @@ operations/input can occur.
 
 Note: Correct functionality is not a requirement change.  
 
+## Profession-Based
+
+Practice real-world contribution skills – this course is designed to reward the same things life does:
+
+- Successful outcomes created by a group of contributors
+- Valuable contributions by each individual.
+
 ## Source
 
 <https://github.com/denisecase/rfp-hunt/blob/master/rfp-hunt.md>
