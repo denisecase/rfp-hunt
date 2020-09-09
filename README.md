@@ -28,7 +28,7 @@
 1. Northwest Gaming App https://github.com/sumana-reddy/GDP-1-project (storyboard)
 1. The Hunt https://github.com/Dixith1196/THE-HUNT (mobile theme / icons)
 3. Lost Treasure https://github.com/Rajeshwari-Rudra/GDP1 (sprint buckets with dates)
-4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game
+4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game (detailed sample data)
 
 ## Proposals - Issues 
 
