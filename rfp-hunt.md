@@ -344,13 +344,39 @@ Practice real-world contribution skills – this is designed to reward the same 
 - Successful outcomes created by a group of contributors
 - Valuable contributions by each individual.
 
-## Work Planning
+## Work Week
 
 Work during the week. 
 
 1. Class is required on Monday.  This day is critical - do your half day of work outside class on Monday - the team needs to "divide & conquer" and figure out who will do what. Get organized; get started. You'll need 9-12 hours of planned tasks (about 3-12 items on the board) each week. 
 1. Class is required on Wednesday – this is another great day to complete another half day of work. As you work, close your Jira tasks.
 1. Class is required on Friday – this is another great day to complete another half day of work. Finish up, document, submit, and be proud of your accomplishments. 
+
+## Task Planning
+
+"Yard by yard life is hard, but inch by inch, life's a cinch."
+
+We're more likely to be successful with a long list of small, manageable tasks. 
+
+Practice scheduling many small, specific tasks for each user story.  If this works, you can repeat the process for each user story to be implemented.
+
+Here's an example of the types of tasks that may be needed to achieve a single user story (for example, "User Story 5: As a player, accept an invitation to join a team")
+
+Sprint 1
+
+User Story 5 - Finalize draft UI sketches.
+User Story 5 - Review UI sketches with client
+User Story 5 - Update UI description to reflect comments
+User Story 5 - Get approval for UI sketches before beginning implementation in next sprint
+User Story 5 - Divide and assign work for approved screens
+
+Sprint 2
+
+User Story 5 - implement and deploy screen A
+User Story 5 - Implement and deploy screen B
+User Story 5 - Review screens A&B with client, record comments, update tasks
+User Story 5 - Finalize screen A implementation (details in description)
+User Story 5 - Finalize screen B implementation (details in description)
 
 ## Source
 
