@@ -193,6 +193,13 @@ PlayerScore
 - LocationID
 - DateTimeLocationScored
 
+## Clarifications
+
+[https://github.com/denisecase/rfp-hunt/issues/10](https://github.com/denisecase/rfp-hunt/issues/10)
+
+1. Right now, teams live outside a competition, so they could be long-term entities (e.g 4-6 months or each semester). That would allow the same set of teams to compete more than once per semester, which seems reasonable. 
+1. Active teams (teams playing an active competition) should be locked from editing during the entire competition. 
+
 ## Bidder Qualifications
 
 Teams that bid on the RFP must be able to:
