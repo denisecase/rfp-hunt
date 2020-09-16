@@ -95,7 +95,7 @@ As a player, I want to participate in a competition.
 
 1. The app will remind me a day before. 
 1. On the day of the competition, the app will show the start datetime and the starting location.
-1. When the competion starts, I will see the first clue for my randomly-assigned location. 
+1. When the competition starts, I will see the first clue for my randomly-assigned location. 
 1. I start moving to the clue.  If unsuccessful, I can request a second clue. 
 1. If still unsuccessful, I can request a third and final clue (which should make it pretty easy to be successful). 
 1. When I get within __ feet of my location, my display shows (warm color) maybe yellow? 
