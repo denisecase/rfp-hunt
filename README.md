@@ -66,7 +66,7 @@
 
 1. COMPETITIONS?: Sumana + 2
 1. QUESTS?: Bhaskar + 2
-1. USERS & TEAMS?: Sai Rohith + 2
+1. USERS & TEAMS?: Sai + 2
 
 ### Implementation / Testing / Internal Review 
 
