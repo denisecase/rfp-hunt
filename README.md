@@ -67,6 +67,7 @@
 1. COMPETITIONS?: Sai + 2
 1. QUESTS?: Bhaskar + 2
 1. USERS & TEAMS?: Sumana + 2
+1. SKETCHES - Chandrakanth (coordination)
 
 ### Implementation / Testing / Internal Review 
 
