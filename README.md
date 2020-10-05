@@ -58,29 +58,29 @@
 
 ### Data Implementation Leads (Krishna Sumanth & Vikas)
 
-1. COMPETITIONS?: Rajaswari + 2
-1. QUESTS?: Nooka Raju + 2
-1. USERS & TEAMS?: Rohith + 2
+1. COMPETITIONS: Rajaswari + Vishal (plus help with stds)
+1. QUESTS: Nooka Raju + Yashwanth + Pruthvi
+1. USERS & TEAMS: Rohith C. + Ravi
 
-### UI Implementation Leads (Krishna Sumanth & Deekshith)
+### UI Implementation Leads (Krishna Sumanth & Deekshith) - Pug + EJS view engine (check app.js first)
 
-1. COMPETITIONS?: Sai + 2
-1. QUESTS?: Bhaskar + 2
-1. USERS & TEAMS?: Sumana + 2
+1. COMPETITIONS & QUESTS: Sai + Swaroop + Sumanth + GD + Sai Krishna + Bhaskar
+1. USERS & TEAMS: Sumana + Rajashekar
 1. SKETCHES - Chandrakanth (coordination)
+1. CYPRESS - GD (coordination)
 
 ### Implementation / Testing / Internal Review 
 
-1. Puneeth Annam
-1. Rohith Reddy Avisakula
-1. Venkatayashwanth Damera
-1. Sai Krishna Emmadishetty
-1. Rajashekar Gande
-1. Ravichander Reddy Goli
-1. Prasad Golla Durga
-1. Swaroop Reddy Gottigundala
-1. Sumanth Reddy Naidu
-1. Pruthvi Naskanti
-1. Chandrakanth Polisetty
-1. Vishal Reddy Vennavaram
+1. Puneeth Annam (MC)
+1. Rohith Reddy Avisakula (MC)
+1. Venkatayashwanth Damera (MC)
+1. Sai Krishna Emmadishetty (MC)
+1. Rajashekar Gande (UI)
+1. Ravichander Reddy Goli (MC)
+1. Prasad Golla Durga (UI)
+1. Swaroop Reddy Gottigundala (UI)
+1. Sumanth Reddy Naidu (UI)
+1. Pruthvi Naskanti (MC)
+1. Chandrakanth Polisetty (UI)
+1. Vishal Reddy Vennavaram (MC)
 
