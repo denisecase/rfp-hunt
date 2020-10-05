@@ -43,3 +43,28 @@
 1. The Hunt https://github.com/Dixith1196/THE-HUNT/graphs/contributors
 3. Lost Treasure https://github.com/Rajeshwari-Rudra/GDP1/graphs/contributors
 4. Hunt Game https://github.com/sudheera96/Group-4--Hunt-game/graphs/contributors
+
+## Production
+
+### Project Planning Leads
+
+- Krishna Sumanth - Architecture / stack / standards / directories / deployment / client acceptance / coordination
+- Vikas - Data / ER / sample data / seeding / models / controllers
+- Deekshith - UX - sketches / views / layouts / styles / error messages / consistency
+
+- Sri Sudheera - COMPETITIONS / CRUD / joining / start / play / scoring
+- Pooja - QUESTS / locations / clues / CRUD
+- Harika - USERS & TEAMS / players / CRUD / invites / acceptance / expiration
+
+### Data Implementation Leads (Vikas)
+
+1. Rajaswari + 2
+1. Nooka Raju + 2
+1. Rohith + 2
+
+### UI Implementation Leads (Deekshith)
+
+1. Sumana + 2
+1. Bhaskar + 2
+1. Sai Rohith + 2
+
