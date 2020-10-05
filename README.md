@@ -58,15 +58,15 @@
 
 ### Data Implementation Leads (Krishna Sumanth & Vikas)
 
-1. Rajaswari + 2
-1. Nooka Raju + 2
-1. Rohith + 2
+1. COMPETITIONS?: Rajaswari + 2
+1. QUESTS?: Nooka Raju + 2
+1. USERS & TEAMS?: Rohith + 2
 
 ### UI Implementation Leads (Krishna Sumanth & Deekshith)
 
-1. Sumana + 2
-1. Bhaskar + 2
-1. Sai Rohith + 2
+1. COMPETITIONS?: Sumana + 2
+1. QUESTS?: Bhaskar + 2
+1. USERS & TEAMS?: Sai Rohith + 2
 
 ### Implementation / Testing / Internal Review 
 
@@ -82,3 +82,4 @@
 1. Pruthvi Naskanti
 1. Chandrakanth Polisetty
 1. Vishal Reddy Vennavaram
+
