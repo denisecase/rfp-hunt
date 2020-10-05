@@ -56,15 +56,29 @@
 - Pooja - QUESTS / locations / clues / CRUD
 - Harika - USERS & TEAMS / players / CRUD / invites / acceptance / expiration
 
-### Data Implementation Leads (Vikas)
+### Data Implementation Leads (Krishna Sumanth & Vikas)
 
 1. Rajaswari + 2
 1. Nooka Raju + 2
 1. Rohith + 2
 
-### UI Implementation Leads (Deekshith)
+### UI Implementation Leads (Krishna Sumanth & Deekshith)
 
 1. Sumana + 2
 1. Bhaskar + 2
 1. Sai Rohith + 2
 
+### Implementation / Testing / Internal Review 
+
+1. Puneeth Annam
+1. Rohith Reddy Avisakula
+1. Venkatayashwanth Damera
+1. Sai Krishna Emmadishetty
+1. Rajashekar Gande
+1. Ravichander Reddy Goli
+1. Prasad Golla Durga
+1. Swaroop Reddy Gottigundala
+1. Sumanth Reddy Naidu
+1. Pruthvi Naskanti
+1. Chandrakanth Polisetty
+1. Vishal Reddy Vennavaram
