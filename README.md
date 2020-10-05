@@ -64,9 +64,9 @@
 
 ### UI Implementation Leads (Krishna Sumanth & Deekshith)
 
-1. COMPETITIONS?: Sumana + 2
+1. COMPETITIONS?: Sai + 2
 1. QUESTS?: Bhaskar + 2
-1. USERS & TEAMS?: Sai + 2
+1. USERS & TEAMS?: Sumana + 2
 
 ### Implementation / Testing / Internal Review 
 
